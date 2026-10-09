@@ -75,7 +75,13 @@ You'll need python 3.10+ and [PyTorch](https://pytorch.org/get-started/locally/)
 Install with:
 
 ```shell
+## first install activate python3 env
+
+python3 -m venv ~/marker-env
+source ~/marker-env/bin/activate
+
 pip install marker-pdf
+
 ```
 
 If you want to use marker on documents other than PDFs, you will need to install additional dependencies with:
